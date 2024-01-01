@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accessing Children </title>
+</head>
+<body>
+  <!-- head and body are siblings    -->
+  <!-- decendent nodes-all nested elements,children -->
+<h1>hello world</h1>
+<span>hi God</span>
+    <script>
+
+console.log(document.body.firstChild);//text node
+console.log(document.body.lastChild);
+console.log(document.body.ChildNodes);
+//element.childNodes[0] === element.firstChild
+
+//childNodes in array
+let arr = Array.from(document.body.childNodes)
+console.log(arr)
+
+    </script>
+</body>
+</html>

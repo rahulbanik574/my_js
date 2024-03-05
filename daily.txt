@@ -1,0 +1,23 @@
+..............revision complete .............
+
+
+window
+template_string
+rest_operator
+accessing_children
+alert_prompt
+arrow_function
+
+
+
+
+.................REMAINING.................
+
+
+dom
+element_only_nevigation
+practice-1
+
+
+
+

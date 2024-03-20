@@ -1,1 +1,1 @@
-# Learn js with me within one month!
+# Learn js with me in one month!

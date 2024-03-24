@@ -21,3 +21,40 @@ practice-1
 
 
 
+.........js executiom code.........
+1.Global execution context in"this"
+2.function "           "
+3.Eval "         "
+
+memory phase creatio -> store var 
+execution phase ->
+
+
+////////callstack
+
+
+......control flow.......
+=== type
+false values-> 0,BigInt On,null,undefined,Nan
+
+true values->"0" ,'false',[],{},function(){}
+
+
+......Nulish Coalescing Operator (??):null undefined......
+let val1;
+val1 = 5??10 //5
+val1 = null??10 //10
+clg(val1)
+
+
+.........Ternery operator...
+condition ? true : false
+
+
+
+
+
+
+
+
+

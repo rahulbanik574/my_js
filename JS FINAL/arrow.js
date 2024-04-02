@@ -12,7 +12,7 @@
 // user.welcomeMessage()
 // user.username="sonai"
 // user.welcomeMessage()
-// c//onsole.log(this)
+// console.log(this)
 
 
 

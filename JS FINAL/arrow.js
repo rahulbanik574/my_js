@@ -4,15 +4,21 @@
 
 //     welcomeMessage:function()
 //     {
-//         console.log(`${this.username},hi`);
-//         console.log(this)
+//         console.log(`${this.username},hi`);//...this represent's current context 
+//         console.log(this)//it prints the full function context
 
 //     }
 // }
-// user.welcomeMessage()
+// user.welcomeMessage()//hitesh, hi
 // user.username="sonai"
-// user.welcomeMessage()
-// console.log(this)
+// user.welcomeMessage()sonai ,hi
+// console.log(this)//it prints window object 
+
+
+
+
+
+
 
 
 

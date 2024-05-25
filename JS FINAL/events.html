@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events</title>
+</head>
+<body>
+    <!-- ---------------onclick (1)------------------ -->
+
+    <!-- <div id="button" onclick=" alert('button') "
+    >
+    <button style="height: 2rem; background-color: red;">Click Me</button>
+    <button style="height: 2rem; background-color: red;">Click Me</button>
+</div> -->
+
+<div id="button"  "
+    >
+    <button style="height: 2rem; background-color: red;">Click Me</button>
+    <button style="height: 2rem; background-color: red;">Click Me</button>
+</div>
+
+
+</body>
+
+<script>
+// ----------onclick(2)--good--------------
+    // document.getElementById('button').onclick= function ()
+    // {
+    //     alert('hi');
+    // }
+
+
+// ----------onclick(3)--best--------------
+document.getElementById('button').addEventListener('click',function(){
+    alert("hello");
+})
+
+
+//-------------we can use attached Event()-----------
+
+
+</script>
+
+
+</html>

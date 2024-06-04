@@ -9,9 +9,9 @@
 //(2)->for execution
 //to create private and public variables and methods.
 //; must
+//simple iife
 
-
-(()=>{//simple iife
+(()=>{
     console.log(`hi`);
 })()//arrow iife
 

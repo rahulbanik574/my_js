@@ -26,11 +26,25 @@
 // More items...•10 Feb 2023
 
 
-
-
-
-
-
-
-
 // provides encapsulation, allowing you to create private scopes for variables and functions
+
+// Use Cases Of IIFE:-
+// Avoid polluting the global namespace.
+// IIFE is used to create private and  public variables and methods.
+// It is used to execute the async and await function.
+// It is used to work with require function.
+
+
+
+(function sde()
+{
+console.log("i can get !");
+}
+)();
+
+(()=>{
+
+}
+
+
+)();

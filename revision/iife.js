@@ -44,3 +44,4 @@ console.log("Banik")
 {
     console.log(`Full name is ${name}`)
 })('Rahul Banik');
+
